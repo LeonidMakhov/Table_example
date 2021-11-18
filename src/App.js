@@ -50,7 +50,7 @@ function App() {
 
 
   return (
-      <div className="App">
+      <div>
         <button onClick={minusRows}>Minus row</button>
         {rows}
         <button onClick={plusRows}>Minus row</button>
