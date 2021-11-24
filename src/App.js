@@ -70,7 +70,7 @@ function App() {
           <tbody>
 
           {tableData.map((row) => <tr key={row.id}>
-            {row.cols.map(col => <td key={col.id} style={{ backgroundColor: col.color }}>*</td>)}
+            {row.cols.map(col => <td key={col.id} style={{ backgroundColor: col.color }}>{nanoid(10)}</td>)}
           </tr>)}
 
           </tbody>
